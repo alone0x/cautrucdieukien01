@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    Dkt = parseFloat(prompt("nhập điểm kiểm tra : "));
+    Dgk =parseFloat(prompt("nhập điêm giữa kì:  "));
+    Dck = parseFloat(prompt(" nhập điểm cuối kì"));
+    Dtb = (Dkt + Dgk*2 + Dck*3)/6;
+    if(Dtb>=8){
+        alert("học sinh giỏi");
+    }else if(Dtb>6.5){
+        alert("học sinh khá");
+    }else {alert("học sinh trung bình");}
+</script>
+</body>
+</html>
